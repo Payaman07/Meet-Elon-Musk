@@ -1,69 +1,128 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meet Elon Musk</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b0b0b;
-      color: white;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet Elon Musk</title>
 
-    .container {
-      max-width: 700px;
-      margin: auto;
-      padding: 60px 20px;
-    }
+<style>
+* { box-sizing: border-box; }
 
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050505;
+  color: white;
+  text-align: center;
+}
 
-    p {
-      color: #bbb;
-      font-size: 18px;
-      line-height: 1.6;
-    }
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 45px 20px;
+}
 
-    .badge {
-      display: inline-block;
-      margin: 20px 0;
-      padding: 8px 16px;
-      border: 1px solid #35d04f;
-      border-radius: 20px;
-      color: #35d04f;
-    }
+.badge {
+  display: inline-block;
+  border: 1px solid #35d04f;
+  color: #35d04f;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 28px;
-      background: white;
-      color: black;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-  </style>
+h1 {
+  font-size: clamp(42px, 10vw, 72px);
+  margin: 0;
+}
+
+.subtitle {
+  color: #aaa;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.profile {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 22px;
+  margin: 30px auto 20px;
+  display: block;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid #292929;
+  border-radius: 22px;
+  background: #101010;
+}
+
+.card p {
+  color: #aaa;
+  line-height: 1.7;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #666;
+  font-size: 13px;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="badge">✓ Official Community Project</div>
 
-    <h1>Meet Elon Musk</h1>
+<div class="container">
+
+  <div class="badge">✓ Official Community Project</div>
+
+  <h1>Meet Elon Musk</h1>
+
+  <p class="subtitle">
+    Explore the ideas, innovation and vision behind one of the
+    world's most influential technology entrepreneurs.
+  </p>
+
+  <img
+    class="profile"
+    src="file_00000000f61081fb8266e39e59889187.png"
+    alt="Elon Musk">
+
+  <div class="card">
+    <h2>Innovation • Technology • Future</h2>
 
     <p>
-      Explore the ideas, innovation, and journey of one of the world's
-      most influential technology entrepreneurs.
+      From electric vehicles and space exploration to satellite
+      internet and artificial intelligence, ambitious technology
+      continues to shape the future.
     </p>
 
-    <a class="btn" href="https://x.com/chunD_" target="_blank" rel="noopener noreferrer">Explore</a>
+    <a class="btn"
+       href="https://x.com/chunD_"
+       target="_blank"
+       rel="noopener noreferrer">
+       Follow on X
+    </a>
   </div>
+
+  <div class="footer">
+    Built for the community • Explore the future 🚀
+  </div>
+
+</div>
+
 </body>
 </html>
