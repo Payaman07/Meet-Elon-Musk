@@ -1,2 +1,7 @@
-# Meet-Elon-Musk
-🚀 Meet Elon Musk — a fan-made project exploring the vision, ideas, innovations, and entrepreneurial journey of one of the world’s most influential technology leaders. Discover the mindset of thinking bigger, challenging limits, taking risks, and building the future.
+🚀 Meet Elon Musk
+
+A fan-made project exploring Elon Musk’s vision, ideas, innovations, and entrepreneurial journey.
+
+Think bigger. Challenge limits. Build the future. 🚀
+
+«This is an unofficial fan-made project and is not affiliated with or endorsed by Elon Musk or his companies.»
